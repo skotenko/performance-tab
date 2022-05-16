@@ -1,0 +1,30 @@
+//
+// Performance
+//
+.body {
+  height: 100vh;
+}
+
+.choice {
+  &__btn {
+    &--pill {
+      transition: opacity .3s;
+
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+}
+
+.border-left-grey {
+  border-left: 7px solid #d6d6d6;
+}
+
+.footer {
+  flex-grow: 1;
+}
+
+.repeating-linear {
+  background: repeating-linear-gradient(-45deg, #f8f9fa, #f8f9fa 5px, white 5px, white 10px);
+}
