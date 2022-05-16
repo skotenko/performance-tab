@@ -26,7 +26,7 @@ window.NameSpace = window.NameSpace || {};
 
             let result = 0;
 
-            for (let i = 0; i <= 3000000000; i++) {
+            for (let i = 0; i <= 5000000000; i++) {
                 result = i;
             }
 
